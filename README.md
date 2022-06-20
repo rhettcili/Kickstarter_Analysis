@@ -4,7 +4,7 @@
 This project is a collection of data regarding a large variety of kickstarter projects.
 
 ### Purpose
-The purpose of this analysis was to find a pattern in the success of certain types of kickstarters based on their launch and goal. 
+The purpose of this analysis was to find a pattern in the success of certain types of kickstarters based on their launch and goal. First using the launch date to find the best and worst times in the year to launch a kickstart, in terms of success percentage. And then following that with a proper visualization of the data regarding a kickstart's initial goal. 
 
 ## Analysis and Challenges
 I first organized the data in the kickstart sheet into sections and orders that were more readable and easier to work with. 
@@ -14,9 +14,13 @@ The analysis of the outcomes based on luanch dates was primarily preformed by cr
 Then I formed a line graph of the data in order to properly visualize patterns that the data indicated. 
 The greatest challenge of this section was organizing the pivote table in a way to make the data clear, but I was able to achieve this by using only the months of the aquired dates to show a more accurate timeline of the outcomes. 
 
+![](Resources/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 The outcomes based on goals analysis was much more challenging, due to the more compolicated processes of "countif()" statements. The main challenge in these was adding in all of the correct criteria to get the desired outcome. 
 I was able to overcome this challenge through a very slow and methodical writing of every step of the "countif()" statement. Starting with "=COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$R:$R,"=plays",Kickstarter!$D:$D,"<1000")", and building from there to get the rest of the data chart filled out. 
+
+![](Resources/Outcomes_vs_Goals.png)
 
 ## Results
 
